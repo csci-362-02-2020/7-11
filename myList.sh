@@ -11,3 +11,5 @@ do
 printf '<p style="color:9900CC;">%b\n' "$file""</p>" >> index.html
 done
 xdg-open index.html
+sleep 1 
+rm -rf index.html
