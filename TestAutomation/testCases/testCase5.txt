@@ -1,0 +1,14 @@
+“id”: 5,
+“requirement”: "searchBar",
+“component”: search-input,
+“input”: 
+elem5 = driver.find_element_by_class_name("search-input")
+elem5.send_keys("Halls Chophouse")
+elem5.send_keys(Keys.RETURN)
+assert "King Street, 29424" in driver.page_source
+“output”: PASS
+
+
+
+
+

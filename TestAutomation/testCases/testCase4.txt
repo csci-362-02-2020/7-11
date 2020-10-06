@@ -1,0 +1,10 @@
+“id”: 4,
+“requirement”: "userLocationUpdate",
+“component”: leaflet-interactive,
+“input”: 
+elem4 = driver.find_element_by_class_name("leaflet-bar-part")
+elemDot2 = driver.find_element_by_class_name("leaflet-interactive")
+elem4.click()
+assert str(elemDot) in driver.page_source
+“output”: PASS
+

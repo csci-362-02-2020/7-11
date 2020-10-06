@@ -1,0 +1,9 @@
+“id”: 1,
+“requirement”: elementRendered,
+“component”: CookieButton,
+“input”: 
+elem1 = driver.find_element_by_class_name("button-continue-with-cookies")
+assert elem1.text == "Okay, let's go!"
+“output”: PASS
+
+
