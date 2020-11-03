@@ -1,0 +1,8 @@
+{
+    "id": "2",
+    "requirement": "elementRendered",
+    "component": "CookieButton",
+    "input": "elem1 = self.driver.find_element_by_class_name(\"button-continue-with-cookies\")\nassert true == true\"",
+    "output": "PASS"
+  }
+  
