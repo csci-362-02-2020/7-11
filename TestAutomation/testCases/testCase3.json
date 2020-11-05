@@ -1,0 +1,8 @@
+{
+    "id": "3",
+    "requirement": "userLocationButtonRendered",
+    "component": "leaflet-interactive",
+    "input": "elem1 = self.driver.find_element_by_class_name(\"button-continue-with-cookies\")\nelem1.click()\nelem = self.driver.find_element_by_class_name(\"leaflet-bar-part\")",
+    "output": "PASS"
+  }
+  

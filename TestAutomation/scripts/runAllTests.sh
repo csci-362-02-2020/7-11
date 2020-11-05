@@ -3,7 +3,8 @@
 cd ..
 rm -rf temp
 mkdir temp
+rm -rf reports
 cd scripts
 
-python testmap.py -v
+python3 testmap.py -v
 

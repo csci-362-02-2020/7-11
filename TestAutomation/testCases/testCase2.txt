@@ -1,8 +1,0 @@
-“id”: 2,
-“requirement”: "elementRendered",
-“component”: NoCookieButton,
-“input”: 
-elem2 = driver.find_element_by_class_name("button-continue-without-cookies")
-assert str(elem2.text) not in driver.page_source
-“output”: PASS
-

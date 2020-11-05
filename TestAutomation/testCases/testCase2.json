@@ -1,8 +1,8 @@
 {
     "id": "2",
     "requirement": "elementRendered",
-    "component": "CookieButton",
-    "input": "elem1 = self.driver.find_element_by_class_name(\"button-continue-with-cookies\")\nassert True == True",
+    "component": "NoCookieButton",
+    "input": "elem = self.driver.find_element_by_class_name(\"button-continue-without-cookies\")\nassert elem.text == \"Continue without cookies\"",
     "output": "PASS"
   }
   

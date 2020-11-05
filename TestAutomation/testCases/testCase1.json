@@ -2,7 +2,7 @@
   "id": "1",
   "requirement": "elementRendered",
   "component": "CookieButton",
-  "input": "elem1 = self.driver.find_element_by_class_name(\"button-continue-with-cookies\")\nassert True == True",
+  "input": "elem = self.driver.find_element_by_class_name(\"button-continue-with-cookies\")\nassert elem.text == \"Okay, let’s go!\"",
   "output": "PASS"
 }
 
