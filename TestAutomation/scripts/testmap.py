@@ -14,7 +14,6 @@ class TestMap(unittest.TestCase):
     def test_function(input):
         def test(self):
             exec(input) in globals(), locals()
-            print("yoooo")
         return test
 
     def tearDown(self):
@@ -22,8 +21,9 @@ class TestMap(unittest.TestCase):
 
 
 if __name__ == "__main__":
-    
+
     testsmap = Parser.parse()
+    T = TestMap()
 
     for test in testsmap:
         test_func = TestMap.test_function(test.input)

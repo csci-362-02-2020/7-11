@@ -6,7 +6,7 @@ import os
 def parse():
     testList = []
 
-    for path in glob('./TestAutomation/testCases/*.json'):  # loop over .json files in the cwd
+    for path in glob('../testCases/*.json'):  # loop over .json files in the cwd
         with open(path) as f:
             data = json.load(f)  # opent the json file
             test = testCase(data['id'], data['requirement'], data['component'], data['input'], data['output'])
