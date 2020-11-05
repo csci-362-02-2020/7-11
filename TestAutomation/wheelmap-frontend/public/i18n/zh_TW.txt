@@ -1,0 +1,1116 @@
+# 
+# Translators:
+# Sebastian Felix Zappe <hypo@me.com>, 2019
+# Supaplex <bejokeup@gmail.com>, 2019
+# Developers, 2019
+# 
+msgid ""
+msgstr ""
+"Last-Translator: Developers, 2019\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/sozialhelden/teams/16671/zh_TW/)\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/components/SearchToolbar/SearchButton.js:40 src/pages/_app.js:327
+msgid "Search"
+msgstr "尋找"
+
+#: src/pages/_app.js:328
+msgid "Homepage"
+msgstr "首頁"
+
+#: src/components/EmbedModeDeniedDialog.js:12
+msgid "Embed mode can not be used"
+msgstr "無法使用嵌入模式"
+
+#: src/components/ErrorBoundary.js:41 src/components/NotFound/NotFound.js:48
+#: src/components/NotFound/NotFound.js:98
+msgid "Error"
+msgstr "錯誤"
+
+#: src/components/NotFound/NotFound.js:51
+msgid ""
+"This URL does not work anymore. If you think the place does exist, you can "
+"use the search to find it."
+msgstr "此網址不再有效。如果您認為該地點確實存在，您可以使用搜索來找到它。"
+
+#: src/components/NotFound/NotFound.js:54
+msgid "Sorry, we are offline!"
+msgstr "抱歉，服務離線中！"
+
+#: src/components/ErrorBoundary.js:44 src/components/NotFound/NotFound.js:67
+msgid "Sorry, that should not have happened!"
+msgstr "抱歉,這不應該發生的!"
+
+#: src/components/ErrorBoundary.js:47 src/components/NotFound/NotFound.js:69
+msgid "Return home"
+msgstr "回到首頁"
+
+#: src/components/NotFound/NotFound.js:71
+msgid "Retry"
+msgstr "重試"
+
+#: src/lib/Categories.js:87
+msgid "Shopping"
+msgstr "購物"
+
+#: src/lib/Categories.js:91
+msgid "Food & Drinks"
+msgstr "食物&飲料"
+
+#: src/lib/Categories.js:95
+msgid "Transport"
+msgstr "交通工具"
+
+#: src/lib/Categories.js:99
+msgid "Leisure"
+msgstr "休閒"
+
+#: src/lib/Categories.js:103
+msgid "Hotels"
+msgstr "旅館"
+
+#: src/lib/Categories.js:107
+msgid "Tourism"
+msgstr "旅遊"
+
+#: src/lib/Categories.js:111
+msgid "Education"
+msgstr "教育"
+
+#: src/lib/Categories.js:115
+msgid "Authorities"
+msgstr "官方的"
+
+#: src/lib/Categories.js:119
+msgid "Health"
+msgstr "健康"
+
+#: src/lib/Categories.js:123
+msgid "Money"
+msgstr "錢"
+
+#: src/lib/Categories.js:127
+msgid "Sports"
+msgstr "運動"
+
+#: src/lib/Categories.js:131
+msgid "Toilets"
+msgstr "廁所"
+
+#: src/lib/Categories.js:255
+msgid "Error while loading place categories."
+msgstr "載入場所類別時出錯。"
+
+#: src/app/CreatePlaceData.js:12
+#: src/components/CreatePlaceDialog/CreatePlaceDialog.js:163
+msgid "Add a new place"
+msgstr "加入丟失的地方"
+
+#: src/app/ContributionThanksData.js:12
+msgid "Thank you for the contribution!"
+msgstr "感謝你的貢獻！"
+
+#: src/app/SearchData.js:131 src/components/SearchToolbar/SearchResults.js:39
+msgid "Search results"
+msgstr "搜尋結果"
+
+#: src/lib/EquipmentInfo.js:100
+msgid "Unnamed facility"
+msgstr "未命名設施"
+
+#: src/lib/EquipmentInfo.js:114
+msgid "In operation"
+msgstr "操作中"
+
+#: src/lib/EquipmentInfo.js:116
+msgid "Out of order"
+msgstr "發生故障"
+
+#: src/lib/EquipmentInfo.js:118
+msgid "Unknown operational status"
+msgstr "狀況不明"
+
+#: src/lib/EquipmentInfo.js:159
+msgid "Escalator"
+msgstr "電扶梯"
+
+#: src/lib/EquipmentInfo.js:160
+msgid "Elevator"
+msgstr "電梯"
+
+#: src/lib/EquipmentInfo.js:162
+msgid "Facility"
+msgstr "設施"
+
+#: src/lib/EquipmentInfo.js:166
+msgid "today"
+msgstr "今日"
+
+#: src/lib/EquipmentInfo.js:167
+msgid "yesterday"
+msgstr "昨日"
+
+#: src/lib/EquipmentInfo.js:186
+msgid ""
+"Last known operational status: ${ translatedEquipmentCategory } was ${ "
+"lastStatus } on ${ dateString }."
+msgstr ""
+"我們最後知道的是這個 : ${ translatedEquipmentCategory }在${ dateString }為 ${ lastStatus"
+" }。"
+
+#: src/lib/EquipmentInfo.js:196
+msgid "Last update: ${ dateString }"
+msgstr "最新更新 : ${ dateString }。"
+
+#: src/app/PlaceDetailsData.js:276
+msgid "This place is on ${ productName }: ${ placeTitle }"
+msgstr "這個地方在 ${ productName }： ${ placeTitle }"
+
+#: src/lib/Feature.js:470
+msgid "Fully wheelchair accessible"
+msgstr "完全輪椅通道"
+
+#: src/components/SearchToolbar/AccessibilityFilterMenu.js:34
+#: src/lib/Feature.js:473
+msgid "Partially wheelchair accessible"
+msgstr "部分輪椅通道"
+
+#: src/lib/Feature.js:476
+msgid "Not wheelchair accessible"
+msgstr "沒有輪椅通道"
+
+#: src/lib/Feature.js:479
+msgid "Unknown accessibility"
+msgstr "未知"
+
+#: src/lib/Feature.js:489
+msgid "Fully"
+msgstr "額滿"
+
+#: src/lib/Feature.js:492
+msgid "Partially"
+msgstr "部分"
+
+#: src/lib/Feature.js:495
+msgid "Not at all"
+msgstr "不完全是"
+
+#: src/components/NodeToolbar/Report/ReportDialog.js:93 src/lib/Feature.js:498
+msgid "Unknown"
+msgstr "未知"
+
+#: src/lib/Feature.js:508
+msgid "Entrance has no steps, and all rooms are accessible without steps."
+msgstr "入口沒有階梯，所有的房間也沒有階梯。"
+
+#: src/lib/Feature.js:512
+msgid ""
+"Entrance has one step with max. 3 inches height, most rooms are without "
+"steps."
+msgstr "入口有一個最高 3 英吋的台階，大多數房間沒有台階。"
+
+#: src/lib/Feature.js:514
+msgid ""
+"Entrance has one step with max. 7 cm height, most rooms are without steps."
+msgstr "入口有一個最高 7 公分的台階，大多數房間沒有台階。"
+
+#: src/lib/Feature.js:517
+msgid ""
+"Entrance has a high step or several steps, none of the rooms are accessible."
+msgstr "入口有一步或幾步，房間不可進入。"
+
+#: src/lib/Feature.js:528
+msgid "Wheelchair accessible toilet"
+msgstr "輪椅可通行廁所"
+
+#: src/lib/Feature.js:531
+msgid "No wheelchair accessible toilet"
+msgstr "沒有輪椅無障礙廁所"
+
+#: src/lib/Feature.js:539
+msgid "Doorways' inner width ≥ 35 inches"
+msgstr "門口內部寬度≥35寸"
+
+#: src/lib/Feature.js:539
+msgid "Doorways' inner width ≥ 90 cm"
+msgstr "門口內部寬度≥90寸"
+
+#: src/lib/Feature.js:540
+msgid "Clear turning space ≥ 59 inches wide"
+msgstr "乾淨地板空間≥59寸寬"
+
+#: src/lib/Feature.js:540
+msgid "Clear turning space ≥ 150 cm wide"
+msgstr "乾淨地板空間≥150公分寬"
+
+#: src/lib/Feature.js:541
+msgid "Wheelchair-height toilet seat"
+msgstr "輪椅高度馬桶座"
+
+#: src/lib/Feature.js:542
+msgid "Foldable grab rails"
+msgstr "無障礙扶手"
+
+#: src/lib/Feature.js:543
+msgid "Accessible sink"
+msgstr "無障礙手盆"
+
+#: src/lib/Feature.js:550
+msgid "Unnamed place"
+msgstr "未命名的地方"
+
+#: src/lib/cache/FeatureCache.js:188 src/lib/cache/WheelmapFeatureCache.js:33
+msgid "Could not load this place."
+msgstr "無法載入此地點。"
+
+#: src/lib/cache/URLDataCache.js:120
+msgid "Error while loading data."
+msgstr "載入資料時發生錯誤"
+
+#: src/components/MappingEvents/MappingEventWelcomeDialog.js:21
+msgid "Welcome"
+msgstr "歡迎"
+
+#: src/components/MappingEvents/MappingEventWelcomeDialog.js:24
+msgid ""
+"You are now part of the mapping event ${ mappingEvent.name } ❤ Your next "
+"step: Rate and add the accessibility of places."
+msgstr "你現在是繪製活動的一份子${ mappingEvent.name }❤️下一步：新增地方的可達性並為其評分。"
+
+#: src/components/MappingEvents/MappingEventWelcomeDialog.js:38
+msgid "Let's go"
+msgstr "一起走吧"
+
+#: src/components/MappingEvents/MappingEventsToolbar.js:31
+msgid "Mapping events list"
+msgstr "畫地圖活動清單"
+
+#: src/components/MappingEvents/MappingEventsToolbar.js:33
+msgid "${ mappingEvents.length } active mapping events"
+msgstr "${ mappingEvents.length } 活躍中的畫地圖活動"
+
+#: src/components/MappingEvents/MappingEventsToolbar.js:35
+msgid "Events"
+msgstr "活動"
+
+#: src/components/MappingEvents/MappingEventsToolbar.js:37
+msgid "Meet the community and map the accessibility of places around you!"
+msgstr "與社群交流，並且繪製你週遭一帶的無障礙設施地圖！"
+
+#: src/components/MappingEvents/MappingEventToolbar.js:75
+msgid "starting"
+msgstr "開始"
+
+#: src/components/MappingEvents/MappingEventToolbar.js:80
+msgid "until"
+msgstr "直到"
+
+#: src/components/MappingEvents/MappingEventToolbar.js:95
+msgid "Mapping event ${ mappingEvent.name }"
+msgstr "畫地圖活動 ${ mappingEvent.name }"
+
+#: src/components/MappingEvents/MappingEventToolbar.js:97
+msgid "Center map on mapping event"
+msgstr "將地圖放於繪製活動中央"
+
+#: src/components/MappingEvents/MappingEventToolbar.js:99
+msgid "Meeting point"
+msgstr "集合"
+
+#: src/components/MappingEvents/MappingEventToolbar.js:101
+msgid "Area name"
+msgstr "地域名稱"
+
+#: src/components/MappingEvents/MappingEventToolbar.js:103
+msgid "Event date"
+msgstr "活動日期"
+
+#: src/components/MappingEvents/MappingEventToolbar.js:105
+msgid "Event start date"
+msgstr "活動起始日期"
+
+#: src/components/MappingEvents/MappingEventToolbar.js:107
+msgid "Event end date"
+msgstr "活動結束日期"
+
+#: src/components/MappingEvents/MappingEventToolbar.js:109
+msgid "Back to the mapping events list"
+msgstr "回到畫地圖活動清單"
+
+#: src/components/MappingEvents/MappingEventToolbar.js:111
+#: src/components/NodeToolbar/IconButtonList/ShareButtons.js:38
+msgid "Share"
+msgstr "分享"
+
+#: src/components/MappingEvents/MappingEventToolbar.js:113
+msgid "Join mapping event"
+msgstr "參加畫地圖活動"
+
+#: src/components/MappingEvents/MappingEventToolbar.js:115
+msgid "Leave mapping event"
+msgstr "離開畫地圖活動"
+
+#: src/components/Map/Map.js:1004
+msgid "Zoom in closer to see more places"
+msgstr "放大更近可看更多地方"
+
+#: src/components/Map/Map.js:1020
+msgid "Turn on location services"
+msgstr "開啟定位服務"
+
+#: src/components/Map/Map.js:1053
+msgid "Map"
+msgstr "地圖"
+
+#: src/components/MappingEvents/Statistics.js:20
+msgid "Mapping Event Numbers"
+msgstr "畫地圖活動數量"
+
+#: src/components/MappingEvents/Statistics.js:22
+msgid "Mapped Places"
+msgstr "已畫的地方"
+
+#: src/components/MappingEvents/Statistics.js:24
+msgid "Participants"
+msgstr "參與者"
+
+#: src/components/MappingEvents/Statistics.js:26
+msgid "Days Left"
+msgstr "剩下天數"
+
+#: src/components/MappingEvents/MappingEventShareBar.js:34
+msgid ""
+"Help us out and join the ${ mappingEvent.name } mapping event${ "
+"productNameString }. You can find more info here: ${ url }"
+msgstr ""
+"幫助我們並且參加 ${ mappingEvent.name } 畫地圖活動 ${ productNameString "
+"}.。你可以在這裡找到更多資訊：${ url }"
+
+#: src/components/Map/MappingEventMarkerIcon.js:34
+msgid "${ eventName } Mapping Event Map Marker"
+msgstr "${ eventName } 畫地圖活動標記"
+
+#: src/lib/goToLocationSettings.js:36
+msgid ""
+"To locate yourself on the map, open browser settings and allow Wheelmap.org "
+"to use location services."
+msgstr "要在地圖上找到自己的位置，請打開瀏覽器設定並允許 Wheelmap.org 使用定位服務。"
+
+#: src/components/Map/addLocateControlToMap.js:45
+msgid "Show me where I am"
+msgstr "請顯示出我在哪"
+
+#: src/components/CloseButton.js:33 src/components/CloseLink.js:36
+#: src/components/PhotoUpload/PhotoUploadInstructionsToolbar.js:236
+msgid "Close"
+msgstr "關閉"
+
+#: src/components/ShareBar/ShareBar.js:86
+msgid "Expand share menu"
+msgstr "展開分享選單"
+
+#: src/components/ShareBar/ShareBar.js:106
+msgid "Collapse share menu"
+msgstr "收合共享選單"
+
+#: src/components/Toolbar.js:333
+msgid "Collapse details"
+msgstr "當機詳情"
+
+#: src/components/Toolbar.js:333
+msgid "Expand details"
+msgstr "展開詳情"
+
+#: src/components/NodeToolbar/FeatureClusterPanel.js:145
+msgid "Places"
+msgstr "地方"
+
+#: src/components/ContributionThanksDialog/ContributionThanksDialog.js:91
+msgid "Thank you!"
+msgstr "謝謝你！"
+
+#: src/components/ContributionThanksDialog/ContributionThanksDialog.js:92
+msgid "Please give us a moment to verify your contribution."
+msgstr "請留給我們時間來驗證你的貢獻。"
+
+#: src/components/ContributionThanksDialog/ContributionThanksDialog.js:94
+msgid "Add next place"
+msgstr "新增下個地方"
+
+#: src/components/ContributionThanksDialog/ContributionThanksDialog.js:95
+msgid "Back to map"
+msgstr "回到地圖"
+
+#: src/components/WheelmapHomeLink.js:10
+msgid "Go to ${ appName }"
+msgstr "到 ${ appName }"
+
+#: src/components/Onboarding/Onboarding.js:62
+#: src/components/WheelmapHomeLink.js:15
+msgid "App Logo"
+msgstr "App Logo"
+
+#: src/components/SearchToolbar/SearchButton.js:35
+msgid "All places"
+msgstr "所有地方"
+
+#: src/components/Onboarding/Onboarding.js:42
+msgid "Help out by marking places!"
+msgstr "通過標記地方得到幫助！"
+
+#: src/components/Onboarding/Onboarding.js:44
+msgid "Okay, let’s go!"
+msgstr "好的，出發"
+
+#: src/components/Onboarding/Onboarding.js:46
+msgid "Continue without cookies"
+msgstr "繼續但不留 cookies"
+
+#: src/components/Onboarding/Onboarding.js:49
+msgid ""
+"We use cookies to improve this app for you. <a "
+"href=\"https://news.wheelmap.org/terms-of-use/\" target=\"_blank\">Read our "
+"Privacy Policy</a>."
+msgstr ""
+"我們使用 cookies 來為你改進 app。<a href=\"https://news.wheelmap.org/terms-of-use/\" "
+"target=\"_blank\">請閱讀我們的隱私權政策</a>。"
+
+#: src/components/Onboarding/Onboarding.js:70
+msgid "Start screen"
+msgstr "輪椅地圖"
+
+#: src/components/PhotoUpload/ReportPhotoToolbar.js:26
+msgid "Image shows another place."
+msgstr "圖片顯示的是另一個地方。"
+
+#: src/components/PhotoUpload/ReportPhotoToolbar.js:29
+msgid "Outdated"
+msgstr "過期的"
+
+#: src/components/PhotoUpload/ReportPhotoToolbar.js:32
+msgid "Offensive or inappropriate"
+msgstr "冒犯或不恰當"
+
+#: src/components/PhotoUpload/ReportPhotoToolbar.js:35
+msgid "Other problems"
+msgstr "其他問題"
+
+#: src/components/PhotoUpload/ReportPhotoToolbar.js:45
+msgid "This image does not depict this place."
+msgstr "此圖片並非描繪此地點。"
+
+#: src/components/PhotoUpload/ReportPhotoToolbar.js:48
+msgid "This image does not show the current state of this place."
+msgstr "此圖片無法顯示此地點的目前狀態。"
+
+#: src/components/PhotoUpload/ReportPhotoToolbar.js:51
+msgid ""
+"This image shows sexually explicit content, depicts violence or is "
+"inappropriate in another way."
+msgstr "此圖像顯示色情內容，描繪暴力或其他不適合內容。"
+
+#: src/components/PhotoUpload/ReportPhotoToolbar.js:54
+msgid "This image infringes on my copyright or has other problems."
+msgstr "此圖片侵犯了我的版權或有其他問題。"
+
+#: src/components/PhotoUpload/ReportPhotoToolbar.js:114
+msgid "Reason for reporting image"
+msgstr "回報圖片原因"
+
+#: src/components/PhotoUpload/ReportPhotoToolbar.js:127
+msgid "To report"
+msgstr "回報"
+
+#: src/components/PhotoUpload/ReportPhotoToolbar.js:129
+msgid "Which problem would you like to report?"
+msgstr "您想要回報什麼問題？"
+
+#: src/components/NodeToolbar/AccessibilityEditor/RadioStatusEditor.js:177
+#: src/components/PhotoUpload/PhotoUploadInstructionsToolbar.js:331
+#: src/components/PhotoUpload/ReportPhotoToolbar.js:156
+msgid "Cancel"
+msgstr "取消"
+
+#: src/components/NodeToolbar/Report/SendReportToAc.js:126
+#: src/components/PhotoUpload/ReportPhotoToolbar.js:163
+msgid "Send"
+msgstr "寄出"
+
+#: src/components/CreatePlaceDialog/CreatePlaceDialog.js:90
+msgid "“Vespucci” in PlayStore"
+msgstr "在 PlayStore 的 Vespucci"
+
+#: src/components/CreatePlaceDialog/CreatePlaceDialog.js:95
+msgid "Use the OpenStreetMap web editor"
+msgstr "使用 OpenStreetMap web 編輯器"
+
+#: src/components/CreatePlaceDialog/CreatePlaceDialog.js:100
+msgid "“Go Map!!” in App Store"
+msgstr "在 App Store 的 Go Map!!"
+
+#: src/components/CreatePlaceDialog/CreatePlaceDialog.js:105
+msgid "“MAPS.ME” in App Store"
+msgstr " 在 App Store 的 MAPS.ME"
+
+#: src/components/CreatePlaceDialog/CreatePlaceDialog.js:110
+msgid "“MAPS.ME” in PlayStore"
+msgstr "在 PlayStore 的 MAPS.ME"
+
+#: src/components/CreatePlaceDialog/CreatePlaceDialog.js:164
+msgid ""
+"Most places shown here are from <a "
+"href='https://openstreetmap.org'>OpenStreetMap (OSM)</a>. If you add places "
+"on OSM, they will appear here a bit later."
+msgstr ""
+"此處顯示的大多數地方來自<a href='https://openstreetmap.org'>OpenStreetMap (OSM)</a>。如果你在"
+" OSM 上新增地點，稍後它們會出現在這裡。"
+
+#: src/components/CreatePlaceDialog/CreatePlaceDialog.js:165
+#: src/components/NodeToolbar/Report/strings.js:26
+msgid "Leave a note on OpenStreetMap"
+msgstr "在 OpenStreetMap 上留言"
+
+#: src/components/CreatePlaceDialog/CreatePlaceDialog.js:166
+msgid "Add a place on OpenStreetMap"
+msgstr "在 OpenStreetMap 新增一個地點"
+
+#: src/components/PhotoUpload/PhotoUploadInstructionsToolbar.js:272
+msgid "The following images…"
+msgstr "以下圖片…"
+
+#: src/components/PhotoUpload/PhotoUploadInstructionsToolbar.js:273
+msgid "...give useful information on accessibility."
+msgstr "...提供有關可通行性的有用資訊。"
+
+#: src/components/PhotoUpload/PhotoUploadInstructionsToolbar.js:274
+msgid "...were taken by me."
+msgstr "…是我拍照的。"
+
+#: src/components/PhotoUpload/PhotoUploadInstructionsToolbar.js:275
+msgid "...do not show any identifiable persons."
+msgstr "...勿顯示出任何可識別的人。"
+
+#: src/components/PhotoUpload/PhotoUploadInstructionsToolbar.js:276
+msgid ""
+"I hereby publish these images into the public domain and renounce copyright "
+"protection (<a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" "
+"target=\"_blank\">CC0 1.0 Universal license</a>)."
+msgstr ""
+"我接著以公共授權以及重申著作權保護發佈 (<a "
+"href=\"https://creativecommons.org/publicdomain/zero/1.0/\" "
+"target=\"_blank\">CC0 1.0 普世授權</a>) 釋出這些圖片。"
+
+#: src/components/PhotoUpload/PhotoUploadInstructionsToolbar.js:302
+msgid "Entrances"
+msgstr "入口"
+
+#: src/components/PhotoUpload/PhotoUploadInstructionsToolbar.js:306
+msgid "Site map"
+msgstr "網站地圖"
+
+#: src/components/PhotoUpload/PhotoUploadInstructionsToolbar.js:310
+msgid "toilets"
+msgstr "廁所"
+
+#: src/components/NodeToolbar/AccessibilityEditor/RadioStatusEditor.js:174
+#: src/components/PhotoUpload/PhotoUploadInstructionsToolbar.js:338
+msgid "Continue"
+msgstr "繼續"
+
+#: src/components/NodeToolbar/AccessibilityEditor/RadioStatusEditor.js:180
+#: src/components/NodeToolbar/Report/strings.js:28
+#: src/components/PhotoUpload/PhotoUploadCaptchaToolbar.js:341
+msgid "Back"
+msgstr "上一步"
+
+#: src/components/PhotoUpload/PhotoUploadCaptchaToolbar.js:354
+#: src/components/SearchToolbar/SearchToolbar.js:470
+msgid "Go"
+msgstr "執行"
+
+#: src/components/PhotoUpload/PhotoUploadCaptchaToolbar.js:365
+msgid "Show different characters"
+msgstr "顯示不同人物"
+
+#: src/components/PhotoUpload/PhotoUploadCaptchaToolbar.js:414
+msgid "Image upload"
+msgstr "上傳圖片"
+
+#: src/components/PhotoUpload/PhotoUploadCaptchaToolbar.js:414
+msgid "Hi Wheelmap Team, I have an image of the following place:"
+msgstr "嗨，Wheelmap 團隊，我有一張以下地方的圖片："
+
+#: src/components/PhotoUpload/PhotoUploadCaptchaToolbar.js:418
+msgid "Loading..."
+msgstr "載入中…"
+
+#: src/components/PhotoUpload/PhotoUploadCaptchaToolbar.js:420
+msgid "Please enter these characters."
+msgstr "請輸入這些字符。"
+
+#: src/components/PhotoUpload/PhotoUploadCaptchaToolbar.js:422
+msgid "Then we know that you are human."
+msgstr "那我們就知道你是真人。"
+
+#: src/components/PhotoUpload/PhotoUploadCaptchaToolbar.js:424
+msgid ""
+"If you cannot read or enter this, please contribute your image via email!"
+msgstr "如果您無法閱讀或輸入此內容，請通過電子郵件傳送您的圖片！"
+
+#: src/components/PhotoUpload/PhotoUploadCaptchaToolbar.js:426
+msgid "Thanks! Starting to upload..."
+msgstr "謝謝！開始上傳…"
+
+#: src/components/PhotoUpload/PhotoUploadCaptchaToolbar.js:428
+msgid ""
+"Server cannot be reached. Please try again later and let us know if the "
+"problem persists!"
+msgstr "無法連上伺服器，請稍後再試。如果問題仍然存在，請通知我們！"
+
+#: src/components/PhotoUpload/PhotoUploadCaptchaToolbar.js:430
+msgid ""
+"Sorry, this did not work! Please check if all characters are correct, then "
+"retry."
+msgstr "抱歉，操作無效！請檢查所有字符是否正確，然後重試。"
+
+#: src/components/SearchToolbar/SearchToolbar.js:459
+msgid "Clear search"
+msgstr "清除搜尋"
+
+#: src/components/MainMenu/MainMenu.js:120
+msgid "Home"
+msgstr "家"
+
+#: src/components/MainMenu/MainMenu.js:234
+msgid "Menu"
+msgstr "選單"
+
+#: src/components/SearchToolbar/SearchResults.js:31
+msgid "No results found"
+msgstr "查無結果"
+
+#: src/components/SearchToolbar/SearchResults.js:34
+msgid "No results available. Please try again later!"
+msgstr "查無結果。請稍後重試！"
+
+#: src/components/SearchToolbar/AccessibilityFilterMenu.js:40
+msgid "Partially accessible with accessible WC"
+msgstr "部分可通行附有可通行廁所"
+
+#: src/components/SearchToolbar/AccessibilityFilterMenu.js:47
+msgid "Only fully wheelchair accessible"
+msgstr "只有完全輪椅通道"
+
+#: src/components/SearchToolbar/AccessibilityFilterMenu.js:53
+msgid "Only fully accessible with accessible WC"
+msgstr "僅完全可通行附完全可通行廁所"
+
+#: src/components/SearchToolbar/AccessibilityFilterMenu.js:60
+msgid "Places that I can contribute information to"
+msgstr "我可以貢獻的地方"
+
+#: src/components/SearchToolbar/AccessibilityFilterMenu.js:66
+msgid "Only places that are not accessible"
+msgstr "僅不可通行的地點"
+
+#: src/components/SearchToolbar/AccessibilityFilterMenu.js:93
+msgid "Wheelchair accessibility filter"
+msgstr "可通行輪椅的篩選器"
+
+#: src/components/SearchToolbar/SearchInputField.js:65
+msgid "Search for place or address"
+msgstr "搜尋地名或地址"
+
+#: src/components/NodeToolbar/AccessibilityEditor/WheelchairStatusEditor.js:50
+#: src/components/NodeToolbar/NodeToolbar.js:272
+msgid "How wheelchair accessible is this place?"
+msgstr "這個地方的無障礙狀況如何？"
+
+#: src/components/SearchToolbar/SearchResult.js:122
+msgid "Unnamed"
+msgstr "未命名"
+
+#: src/components/SearchToolbar/CategoryButton.js:69
+msgid "Remove ${ props.name } Filter"
+msgstr "移除${ props.name }篩選"
+
+#: src/components/SearchToolbar/AccessibilityFilterButton.js:54
+msgid "Remove ${ caption } Filter"
+msgstr "移除${ caption }篩選"
+
+#: src/components/NodeToolbar/SourceList.js:33
+msgid "Source:"
+msgstr "來源 :"
+
+#: src/components/NodeToolbar/AccessibilityEditor/ToiletStatusEditor.js:42
+msgid "Is the toilet here wheelchair accessible?"
+msgstr "這裡的廁所是否輪椅通道？"
+
+#: src/components/NodeToolbar/AccessibilityEditor/ToiletStatusEditor.js:46
+#: src/components/NodeToolbar/AccessibilitySection/AccessibilityDetailsTree.js:15
+msgid "Yes"
+msgstr "可以"
+
+#: src/components/NodeToolbar/AccessibilityEditor/ToiletStatusEditor.js:48
+#: src/components/NodeToolbar/AccessibilitySection/AccessibilityDetailsTree.js:16
+msgid "No"
+msgstr " 不行"
+
+#: src/components/NodeToolbar/AccessibilityEditor/InlineWheelchairAccessibilityEditor.js:125
+#: src/components/NodeToolbar/AccessibilityEditor/RadioStatusEditor.js:134
+msgid "Wheelchair accessibility"
+msgstr "可通行輪椅"
+
+#: src/components/NodeToolbar/Equipment/EquipmentOverview.js:70
+msgid "Disruptions at this location"
+msgstr "此地點的干擾"
+
+#: src/components/NodeToolbar/Equipment/EquipmentOverview.js:88
+msgid "All elevators and escalators"
+msgstr "所有的電梯及電扶梯"
+
+#: src/components/NodeToolbar/Photos/PhotoSection.js:160
+msgid "Report image"
+msgstr "圖片回報"
+
+#: src/components/NodeToolbar/Photos/PhotoSection.js:186
+msgid "of"
+msgstr "的"
+
+#: src/components/NodeToolbar/Photos/PhotoSection.js:188
+msgid "Next (right arrow key)"
+msgstr "下一個（右箭頭鍵）"
+
+#: src/components/NodeToolbar/Photos/PhotoSection.js:190
+msgid "Previous (left arrow key)"
+msgstr "上一個（左箭頭鍵）"
+
+#: src/components/NodeToolbar/Photos/PhotoSection.js:192
+msgid "Close (Esc)"
+msgstr "結束 (Esc)"
+
+#: src/components/NodeToolbar/Report/ReportDialog.js:47
+msgid ""
+"The place is marked as ‘${ accessibilityDescription }’, but this is wrong!"
+msgstr "該地點被標記為'${ accessibilityDescription }'，但這是錯誤的！"
+
+#: src/components/NodeToolbar/Report/ReportDialog.js:56
+msgid ""
+"The toilet accessibility of the place is marked incorrectly or is missing."
+msgstr "該地方的廁所狀態是錯誤的或缺失的。"
+
+#: src/components/NodeToolbar/Report/ReportDialog.js:63
+#: src/components/NodeToolbar/Report/SendReportToAc.js:37
+msgid "I have more information about this place."
+msgstr "關於這個地點我有更多的資訊"
+
+#: src/components/NodeToolbar/Report/ReportDialog.js:69
+#: src/components/NodeToolbar/Report/SendReportToAc.js:45
+msgid "The place does not exist."
+msgstr "這地點不存在。"
+
+#: src/components/NodeToolbar/Report/ReportDialog.js:75
+#: src/components/NodeToolbar/Report/SendReportToAc.js:41
+msgid "The place is at the wrong location."
+msgstr "這地點是錯的。"
+
+#: src/components/NodeToolbar/Report/ReportDialog.js:81
+#: src/components/NodeToolbar/Report/ReportDialog.js:126
+msgid "The problem isn’t listed here…"
+msgstr "我的問題沒有列在這裡..."
+
+#: src/components/NodeToolbar/Report/ReportDialog.js:103
+msgid ""
+"Information about this place has kindly been provided by another "
+"organization, it is a part of ${ sourceName }."
+msgstr "其他團體已為此地方提供資料，它是${ sourceName }的一部分。"
+
+#: src/components/NodeToolbar/Report/ReportDialog.js:110
+msgid "Fix on external page."
+msgstr "固定於外部頁面。"
+
+#: src/components/NodeToolbar/AccessibilityEditor/RadioStatusEditor.js:168
+msgid "Confirm"
+msgstr "確認"
+
+#: src/components/NodeToolbar/AccessibilityEditor/RadioStatusEditor.js:171
+msgid "Change"
+msgstr "修改"
+
+#: src/components/NodeToolbar/AccessibilityEditor/saveStatus.js:93
+msgid "Sorry, this place could not be marked because of an error: ${ e }"
+msgstr "抱歉，發生錯誤無法標記此地點：${ e }"
+
+#: src/components/NodeToolbar/IconButtonList/PhoneNumberLink.js:23
+msgid "Call ${ phoneNumber }"
+msgstr "撥打${ phoneNumber }"
+
+#: src/components/NodeToolbar/IconButtonList/ExternalLinks.js:17
+#: src/lib/openButtonCaption.js:6
+msgid "Open on ${ sourceNameString }"
+msgstr "在${ sourceNameString }開啟"
+
+#: src/components/NodeToolbar/IconButtonList/ExternalLinks.js:19
+msgid "Add info on ${ sourceNameString }"
+msgstr "${ sourceNameString }的改善"
+
+#: src/components/NodeToolbar/IconButtonList/ShareButtons.js:28
+#: src/components/NodeToolbar/IconButtonList/ShareButtons.js:55
+msgid "Learn more about the accessibility of this place"
+msgstr "了解這個地方的無障礙通道。"
+
+#: src/components/NodeToolbar/IconButtonList/ShareButtons.js:32
+msgid "I found a place on Wheelmap: ${ url }"
+msgstr "我在無障礙空間地圖上找到一個地方: ${ url }"
+
+#: src/components/NodeToolbar/IconButtonList/ShareButtons.js:34
+msgid "Wheelmap.org"
+msgstr "Wheelmap.org"
+
+#: src/components/NodeToolbar/IconButtonList/ShareButtons.js:36
+msgid "I found a place on Wheelmap…"
+msgstr "我在無障礙空間地圖上找到一個地方"
+
+#: src/components/NodeToolbar/IconButtonList/ShareButtons.js:46
+msgid "${ categoryName } on Wheelmap"
+msgstr "${ categoryName } 在無障礙空間地圖上"
+
+#: src/components/NodeToolbar/IconButtonList/ShareButtons.js:49
+msgid "I found this place on Wheelmap: ${ placeName }"
+msgstr "我在無障礙空間地圖上找到這個地方 :${ placeName }"
+
+#: src/components/NodeToolbar/IconButtonList/ShareButtons.js:51
+msgid "${ placeName } on Wheelmap.org"
+msgstr "${ placeName } 在 Wheelmap.org"
+
+#: src/components/NodeToolbar/IconButtonList/ShareButtons.js:57
+msgid ""
+"${ sharedObjectTitle }\n"
+"\n"
+"Click on this link to open it: ${ url }"
+msgstr ""
+"${ sharedObjectTitle }\n"
+"\n"
+"點選這連結後開啟：${ url }"
+
+#: src/components/NodeToolbar/IconButtonList/ReportIssueButton.js:16
+msgid "Report a problem"
+msgstr "回報一個問題"
+
+#: src/components/NodeToolbar/Photos/PhotoNotification.js:52
+msgid "Upload in progress..."
+msgstr "上傳中…"
+
+#: src/components/NodeToolbar/Photos/PhotoNotification.js:58
+msgid "Upload failed: server error or file-format not supported"
+msgstr "上傳失敗：伺服器錯誤或不支援文件格式"
+
+#: src/components/NodeToolbar/Photos/PhotoNotification.js:67
+msgid "Thank you for reporting this image. We will take a look at it."
+msgstr "感謝您對此圖片的回報。我們將會檢查它。"
+
+#: src/components/NodeToolbar/Photos/PhotoNotification.js:73
+msgid ""
+"Thank you for contributing. Your image will be visible after we have checked"
+" it."
+msgstr "謝謝您的貢獻。我們檢查後會放上您的圖像。"
+
+#: src/components/PhotoUpload/PhotoUploadButton.js:21
+msgid "Your good deed of the day!"
+msgstr "增加你的積分！"
+
+#: src/components/PhotoUpload/PhotoUploadButton.js:27
+#: src/components/PhotoUpload/PhotoUploadButton.js:30
+msgid "Add images"
+msgstr "新增圖片"
+
+#: src/components/NodeToolbar/AccessibilitySection/WheelchairAndToiletAccessibility.js:60
+msgid "Mark wheelchair accessibility of WC"
+msgstr "加入廁所狀況"
+
+#: src/components/NodeToolbar/AccessibilitySection/WheelchairAndToiletAccessibility.js:124
+msgid "Searching accessible toilet"
+msgstr "搜尋無障礙洗手間"
+
+#: src/components/NodeToolbar/AccessibilitySection/WheelchairAndToiletAccessibility.js:142
+msgid "Show next wheelchair accessible toilet"
+msgstr "顯示下一個輪椅可及的廁所"
+
+#: src/components/NodeToolbar/Report/strings.js:8
+msgid "Is there a problem with this place?"
+msgstr "這個地方有問題嗎？"
+
+#: src/components/NodeToolbar/Report/strings.js:10
+msgid "Many places on Wheelmap.org come from OpenStreetMap."
+msgstr "Wheelmap.org使用OpenStreetMap中的資料顯示場所。"
+
+#: src/components/NodeToolbar/Report/strings.js:12
+msgid "You can remove non-existing places on OpenStreetMap."
+msgstr "您可以刪除OpenStreetMap上不存在的地方。"
+
+#: src/components/NodeToolbar/Report/strings.js:14
+msgid "You can change this place’s location on OpenStreetMap."
+msgstr "您可以在OpenStreetMap上更改此地點的位置。"
+
+#: src/components/NodeToolbar/Report/strings.js:16
+msgid ""
+"If the place has closed permanently, you can tag the place as ‘disused’ on "
+"OpenStreetMap."
+msgstr "如果該地點永久關閉，您可以在OpenStreetMap上將該地點標記為“已廢棄”。"
+
+#: src/components/NodeToolbar/Report/strings.js:18
+msgid "Find out how"
+msgstr "尋找為什麼"
+
+#: src/components/NodeToolbar/Report/strings.js:20
+msgid "You can change this place’s information on OpenStreetMap directly."
+msgstr "你知道你可以直接在OpenStreetMap上更改這個地方的資訊嗎？"
+
+#: src/components/NodeToolbar/Report/strings.js:22
+msgid ""
+"(Note that you need to log in to do this, and that it can take some time "
+"until the place is updated on Wheelmap.)"
+msgstr "(請注意，您需要首先登錄才能執行此操作，並且可能需要一段時間才能在Wheelmap上更新該地點。)"
+
+#: src/components/NodeToolbar/Report/strings.js:24
+msgid "Edit this place on OpenStreetMap"
+msgstr "在OpenStreetMap上編輯這個地方"
+
+#: src/components/NodeToolbar/Report/strings.js:30
+msgid "Click the link below for details about the place and for editing."
+msgstr "點擊下方連結以了解有關地點和編輯的詳細信息。"
+
+#: src/components/NodeToolbar/Report/strings.js:32
+msgid ""
+"(Note that it can take some time after editing until the place is updated on"
+" Wheelmap.)"
+msgstr "(請注意，編輯後可能需要一段時間才能更新Wheelmap。)"
+
+#: src/components/NodeToolbar/Report/strings.js:34
+msgid "Contact the Wheelmap support team"
+msgstr "聯繫Wheelmap客服團隊"
+
+#: src/components/NodeToolbar/Report/strings.js:36
+msgid ""
+"Sorry about that! Just drop us a line so we can help you to fix the problem."
+msgstr "對不起！只需告知我們一聲，我們就可以幫你解決問題。"
+
+#: src/components/NodeToolbar/Report/strings.js:39
+msgid ""
+"(Please only write in English or German.)\n"
+"\n"
+"Dear Sozialhelden,\n"
+"\n"
+"something about this place is wrong: ${ url }\n"
+"\n"
+"The problem is:\n"
+"\n"
+"My browser:\n"
+"\n"
+"${ navigator.userAgent }"
+msgstr ""
+"(請只用英文或是德文。)\n"
+"\n"
+"Dear Sozialhelden,\n"
+"\n"
+"something about this place is wrong: ${ url }\n"
+"\n"
+"The problem is:\n"
+"\n"
+"My browser:\n"
+"\n"
+"${ navigator.userAgent }"
+
+#: src/components/NodeToolbar/Report/strings.js:43
+msgid "[Wheelmap] Problem with ${ placeName } on Wheelmap"
+msgstr "[Wheelmap] Problem with ${ placeName } on Wheelmap"
+
+#: src/components/NodeToolbar/Report/strings.js:45
+msgid "[Wheelmap] Problem with a ${ categoryName } on Wheelmap"
+msgstr "[Wheelmap] Problem with a ${ categoryName } on Wheelmap"
+
+#: src/components/NodeToolbar/Report/strings.js:47
+msgid "[Wheelmap] Problem with a place on Wheelmap"
+msgstr "[Wheelmap] Problem with a place on Wheelmap"
+
+#: src/components/NodeToolbar/Report/SendReportToAc.js:39
+msgid "The accessibility of the place is marked incorrectly."
+msgstr "此地方之可達性標示錯誤。"
+
+#: src/components/NodeToolbar/Report/SendReportToAc.js:43
+msgid "The place is permanently closed."
+msgstr "此地方永久關閉。"
+
+#: src/components/NodeToolbar/Report/SendReportToAc.js:127
+msgid ""
+"Thank you! The place was reported successfully. We will take a look at your "
+"report as soon as possible."
+msgstr "謝謝你！此地方已成功被記錄。我們會盡快查看。"
+
+#: src/components/NodeToolbar/Report/SendReportToAc.js:128
+msgid "Something went wrong reporting the place. Please try again later."
+msgstr "記錄地方的過程出現問題，請稍後再試。"
+
+#: src/components/NodeToolbar/Report/SendReportToAc.js:141
+msgid "Feel free to add some additional information…"
+msgstr "歡迎新增補充資料⋯"
+
+#: src/components/NodeToolbar/Report/FixOnExternalPage.js:20
+msgid "View this place on ${ name }"
+msgstr "於${ name }瀏覽此地方"
+
+#: src/components/NodeToolbar/Report/FixOnExternalPage.js:22
+msgid "Edit this place on ${ name }"
+msgstr "於${ name }編輯此地方"
+
+#: src/components/NodeToolbar/SourceLink.js:63
+msgid "Details"
+msgstr "細節"
+
+#: src/components/NodeToolbar/Equipment/EquipmentItem.js:36
+msgid "${ count } elevator in service"
+msgid_plural "${ count } elevators in service"
+msgstr[0] "${ count } 的可用電梯"
+
+#: src/components/NodeToolbar/Equipment/EquipmentItem.js:41
+msgid "${ count } escalator in service"
+msgid_plural "${ count } escalators in service"
+msgstr[0] "${ count } 的可用電扶梯"
+
+#: src/components/NodeToolbar/Equipment/EquipmentItem.js:48
+msgid "${ count } elevator out of service"
+msgid_plural "${ count } elevators out of service"
+msgstr[0] "${ count } 無法使用的電梯"
+
+#: src/components/NodeToolbar/Equipment/EquipmentItem.js:53
+msgid "${ count } escalator out of service"
+msgid_plural "${ count } escalators out of service"
+msgstr[0] "${ count } 無法使用的電扶梯"
+
+#: src/components/NodeToolbar/Equipment/EquipmentItem.js:60
+msgid "${ count } elevator with unknown operational status"
+msgid_plural "${ count } elevators with unknown operational status"
+msgstr[0] "${ count } 無法確任運作狀態的電梯"
+
+#: src/components/NodeToolbar/Equipment/EquipmentItem.js:65
+msgid "${ count } escalator with unknown operational status"
+msgid_plural "${ count } escalators with unknown operational status"
+msgstr[0] "${ count } 無法確任運作狀態的電扶梯"
+
+#: src/lib/getHumanEnumeration.js:18
+msgid ", or "
+msgstr "，或"
+
+#: src/lib/getHumanEnumeration.js:20
+msgid " or "
+msgstr "或"
+
+#: src/lib/getHumanEnumeration.js:24
+msgid ", and"
+msgstr "，以及"
+
+#: src/lib/getHumanEnumeration.js:26
+msgid " and "
+msgstr "和"
