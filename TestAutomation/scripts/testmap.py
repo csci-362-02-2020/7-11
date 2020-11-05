@@ -1,5 +1,5 @@
 import unittest
-import HTMLTestRunner
+import HtmlTestRunner
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
