@@ -24,11 +24,10 @@ class TestMap(unittest.TestCase):
 if __name__ == "__main__":
 
     testsmap = Parser.parse()
-    T = TestMap()
 
     for test in testsmap:
         test_func = TestMap.test_function(test.input)
         setattr(TestMap, 'test_{0}'.format(test.id), test_func)
 
     # generate the HTML report
-    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='./TestAutomation/reports', report_name='testReport'))
+    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='../reports', report_name='testReport',open_in_browser=True))
