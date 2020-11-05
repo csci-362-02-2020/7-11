@@ -29,4 +29,5 @@ if __name__ == "__main__":
         test_func = TestMap.test_function(test.input)
         setattr(TestMap, 'test_{0}'.format(test.id), test_func)
 
-    unittest.main()
+    # generate the HTML report
+    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='./TestAutomation/reports', report_name='testReport'))
