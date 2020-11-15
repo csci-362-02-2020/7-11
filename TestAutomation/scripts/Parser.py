@@ -6,7 +6,7 @@ import os
 def parse():
     testList = []
 
-    for path in glob('../testCases/*.json'):  # loop over .json files in the cwd
+    for path in glob('./testCases/*.json'):  # loop over .json files in the cwd
         with open(path) as f:
             data = json.load(f)  # opent the json file
             test = testCase(data['id'], data['requirement'], data['component'], data['input'], data['output'])
@@ -15,9 +15,9 @@ def parse():
 
 class testCase:
 
-    def __init__(self, id, req, component, input, oracle):
+    def __init__(self, id, req, component, input, output):
         self.id = id
         self.req = req
         self.component = component
         self.input = input
-        self.oracle = oracle
+        self.output = output

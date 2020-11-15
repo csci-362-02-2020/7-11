@@ -7,7 +7,11 @@ import Parser
 
 
 class TestMap(unittest.TestCase):
-
+    req = 'req'
+    component = 'component'
+    input = 'input'
+    output = 'output'
+        
     def setUp(self):
         self.driver = webdriver.Firefox()
         self.driver.get("http://localhost:3000")
@@ -24,10 +28,20 @@ class TestMap(unittest.TestCase):
 if __name__ == "__main__":
 
     testsmap = Parser.parse()
+    
 
     for test in testsmap:
         test_func = TestMap.test_function(test.input)
         setattr(TestMap, 'test_{0}'.format(test.id), test_func)
+        setattr(TestMap, 'req', test.req)
 
-    # generate the HTML report
-    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='../reports', report_name='testReport',open_in_browser=True))
+
+    template_args = {
+    "list_example": testsmap
+    }
+
+    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(template='./scripts/template.html', template_args=template_args, output='../reports', report_name='testReport', open_in_browser=True, report_title='TestMap component test'))
+
+
+
+   
