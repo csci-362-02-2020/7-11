@@ -1,0 +1,8 @@
+{
+    "id": "5",
+    "requirement": "searchBar",
+    "component": "search-input",
+    "input": "elem1 = self.driver.find_element_by_class_name(\"button-continue-with-cookies\")\nelem1.click()\nelem8 = self.driver.find_element_by_class_name(\"search-input\")\nelem5.send_keys(\"Halls Chophouse\")\nelem8.send_keys(Keys.RETURN)",
+    "output": "PASS"
+  }
+  

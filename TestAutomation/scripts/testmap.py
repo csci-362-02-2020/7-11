@@ -18,7 +18,7 @@ class TestMap(unittest.TestCase):
         return test
 
     def tearDown(self):
-        self.driver.close()
+        self.driver.quit()
 
 
 if __name__ == "__main__":

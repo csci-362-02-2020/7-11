@@ -1,0 +1,8 @@
+{
+    "id": "7",
+    "requirement": "text rendered",
+    "component": "Claim",
+    "input": "elem1 = self.driver.find_element_by_class_name(\"button-continue-with-cookies\")\nelem1.click()\nelem7 = self.driver.find_element_by_class_name(\"claim\")\nassert elem7.text == \"Find wheelchair accessible places.\"",
+    "output": "PASS"
+  }
+    

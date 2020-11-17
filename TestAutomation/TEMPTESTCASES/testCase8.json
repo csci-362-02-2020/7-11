@@ -1,0 +1,7 @@
+{
+    "id": "8",
+    "requirement": "Link redirect",
+    "component": "nav-link",
+    "input": "elem1 = self.driver.find_element_by_class_name(\"button-continue-with-cookies\")\nelem1.click()\nelem5 = self.driver.find_element_by_link_text(\"Get involved\")\nelem5.click()",
+    "output": "PASS"
+  }
