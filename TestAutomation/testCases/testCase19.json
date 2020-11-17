@@ -1,0 +1,7 @@
+{
+  "id": "19",
+  "requirement": "SubComponent click",
+  "component": "MapBox-wordmark",
+  "input": "elem1 = self.driver.find_element_by_class_name(\"button-continue-with-cookies\")\nelem1.click()\nelem9 = self.driver.find_element_by_class_name(\"mapbox-wordmark\")\nelem9.click()",
+  "output": "PASS"
+}

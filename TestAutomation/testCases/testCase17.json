@@ -1,0 +1,7 @@
+{
+  "id": "17",
+  "requirement": "Link redirect",
+  "component": "sozialhelden-logo",
+  "input": "elem1 = self.driver.find_element_by_class_name(\"button-continue-with-cookies\")\nelem1.click()\nelem9 = self.driver.find_element_by_class_name(\"sozialhelden-logo\")\nelem9.click()",
+  "output": "PASS"
+}

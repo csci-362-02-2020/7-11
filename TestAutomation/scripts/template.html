@@ -27,7 +27,6 @@
                             <th>Component</th>
                             <th>Requirement</th>
                             <th>Output</th>
-
                             <th>Status</th>
                             <th></th>
                         </tr>
@@ -36,8 +35,8 @@
                         {%- for test_case in tests_results %}
                         {%- if not test_case.subtests is defined %}
                         <tr class='{{ status_tags[test_case.outcome] }}'>
-                            <td class="col-xs-10">{{ test_case.test_id.split(".")[-1] }}</td>
                             {%- if not test_case.test_id.split(".")[-1] ==  "test_function" %}
+                            <td class="col-xs-5">test_{{ testCase_list[loop.index0].id }}</td>
                             <td> {{  testCase_list[loop.index0].component }}</td>
                             <td> {{  testCase_list[loop.index0].req }}</td>
                             <td> {{  testCase_list[loop.index0].output }}</td>

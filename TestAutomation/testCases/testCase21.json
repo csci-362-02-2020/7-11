@@ -1,0 +1,7 @@
+{
+  "id": "21",
+  "requirement": "SubComponent click",
+  "component": "OpenStreetMap",
+  "input": "elem1 = self.driver.find_element_by_class_name(\"button-continue-with-cookies\")\nelem1.click()\nelem9 = self.driver.find_element_by_partial_link_text(\"OpenStreetMap\")\nelem9.click()",
+  "output": "PASS"
+}
