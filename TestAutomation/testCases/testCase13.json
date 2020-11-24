@@ -1,5 +1,5 @@
 {
-  "id": "13",
+  "id": "013",
   "requirement": "Link redirect",
   "component": "FAQ-nav-link",
   "input": "elem1 = self.driver.find_element_by_class_name(\"button-continue-with-cookies\")\nelem1.click()\nelem9 = self.driver.find_element_by_link_text(\"FAQ\")\nelem9.click()",

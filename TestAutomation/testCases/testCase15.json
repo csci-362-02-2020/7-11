@@ -1,7 +1,7 @@
 {
-  "id": "15",
+  "id": "015",
   "requirement": "Link redirect",
   "component": "ADDPLACE-nav-link",
-  "input": "elem1 = self.driver.find_element_by_class_name(\"button-continue-with-cookies\")\nelem1.click()\nelem9 = self.driver.find_element_by_link_text(\"Add a new place\")\nelem9.click()",
+  "input": "elem1 = self.driver.find_element_by_class_name(\"button-continue-with-cookies\")\nelem1.click()\nelem9 = self.driver.find_element_by_xpath('//a[@class=\"leaflet-bar-part leaflet-bar-part-single\"]')\nelem9.click()",
   "output": "PASS"
 }

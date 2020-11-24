@@ -1,5 +1,5 @@
 {
-  "id": "22",
+  "id": "022",
   "requirement": "ZoomOut",
   "component": "User-ZoomOut",
   "input": "elem1 = self.driver.find_element_by_class_name(\"button-continue-with-cookies\")\nelem1.click()\nelem9 = self.driver.find_element_by_class_name(\"leaflet-control-zoom-out\")\nelem9.click()",

@@ -1,8 +1,8 @@
 {
-    "id": "3",
+    "id": "003",
     "requirement": "userLocationButtonRendered",
     "component": "leaflet-interactive",
-    "input": "elem1 = self.driver.find_element_by_class_name(\"button-continue-with-cookies\")\nelem1.click()\nelem = self.driver.find_element_by_class_name(\"leaflet-bar-part\")",
+    "input": "elem1 = self.driver.find_element_by_class_name(\"button-continue-with-cookies\")\nelem1.click()\nelem = self.driver.find_element_by_xpath('//a[@class=\"leaflet-bar-part leaflet-bar-part-single\"]').get_attribute(\"title\")\nassert elem == \"Show me where I am\"",
     "output": "PASS"
   }
   

@@ -1,6 +1,6 @@
 {
-  "id": "1",
-  "requirement": "elementRendered",
+  "id": "001",
+  "requirement": "elementTextRendered",
   "component": "CookieButton",
   "input": "elem = self.driver.find_element_by_class_name(\"button-continue-with-cookies\")\nassert elem.text == \"Okay, let’s go!\"",
   "output": "PASS"

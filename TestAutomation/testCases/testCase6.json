@@ -1,5 +1,5 @@
 {
-    "id": "6",
+    "id": "006",
     "requirement": "elementRendered",
     "component": "logo",
     "input": "elem1 = self.driver.find_element_by_class_name(\"button-continue-with-cookies\")\nelem1.click()\nelem5 = self.driver.find_element_by_class_name(\"logo\")",

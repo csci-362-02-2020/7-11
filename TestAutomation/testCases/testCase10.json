@@ -1,5 +1,5 @@
 {
-  "id": "10",
+  "id": "010",
   "requirement": "Link redirect",
   "component": "PRESS-nav-link",
   "input": "elem1 = self.driver.find_element_by_class_name(\"button-continue-with-cookies\")\nelem1.click()\nelem9 = self.driver.find_element_by_link_text(\"Press\")\nelem9.click()",

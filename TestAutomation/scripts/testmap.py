@@ -36,5 +36,3 @@ if __name__ == "__main__":
     unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(template='./scripts/template.html', template_args=template_args, output='../reports', report_name='testReport', open_in_browser=True, report_title='TestMap component test'))
 
 
-
-   
