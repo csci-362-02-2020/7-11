@@ -11,6 +11,7 @@ def parse():
             data = json.load(f)  # opent the json file
             test = testCase(data['id'], data['requirement'], data['component'], data['input'], data['output'])
             testList.append(test)
+    testList.sort(key=lambda x: x.id, reverse=False)
     return testList
 
 class testCase:
