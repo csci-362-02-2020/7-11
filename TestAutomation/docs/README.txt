@@ -1,10 +1,13 @@
+## Readme: Installation Instructions
+
 ASSUMING FRESH Ubuntu 18 install:
 
+```
 sudo apt update
 sudo apt install curl 
 sudo apt install git 
 
-# you need to make sure `node -v` is > version 10 for wheelmap to run. 
+# making sure `node -v` is > version 10 for wheelmap to run
 sudo apt purge nodejs
 curl -sL https://deb.nodesource.com/setup_10.x
 sudo -E bash -
@@ -26,6 +29,7 @@ npm install
 sudo apt install transifex
 npm run dev
 
-# Run Test framework 
+# running the testing framework 
 cd 7-11/TestAutomation
 ./scripts/runAllTests.sh
+```
