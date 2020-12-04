@@ -1,6 +1,6 @@
-## Readme: Installation Instructions
+## Installation Instructions
 
-ASSUMING FRESH Ubuntu 18 install:
+ASSUMING FRESH Ubuntu 18 install, run the following from the terminal:
 
 ```
 sudo apt update
