@@ -34,9 +34,10 @@ cd 7-11/TestAutomation
 ./scripts/runAllTests.sh
 ```
 
-## Running the project after the initial install
+## Running the project after the initial installation
+Run the following from the terminal:
 ```
-cd wheelmap-frontend
+cd wheelmap-frontend        
 cp .env.example .env
 npm run dev
 ```
