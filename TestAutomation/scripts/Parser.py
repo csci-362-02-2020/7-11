@@ -1,8 +1,7 @@
 '''
 PARSER.PY
 
-This function parses all .json test case files in the testCases folder. The data for each file is stored as a testCase object. 
-The parse function returns a list of testCase objects to the driver. 
+The parse function parses all .json test case files in the testCases folder. The data for each file is stored as a testCase object. The function then returns a list of testCase objects to the driver. 
 '''
 
 from glob import glob
