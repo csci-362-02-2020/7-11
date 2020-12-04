@@ -44,7 +44,7 @@ cp .env.example .env
 npm run dev
 ```
 
-#### Run the following from the terminal to run the testing framework. Wheelmap must be running
+#### Run the following from the terminal to run the testing framework (Wheelmap must be running): 
 ```
 cd 7-11/TestAutomation
 ./scripts/runAllTests.sh
