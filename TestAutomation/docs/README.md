@@ -1,4 +1,4 @@
-## Installation Instructions
+## Initial installation instructions
 
 ASSUMING FRESH Ubuntu 18 install, run the following from the terminal:
 
@@ -32,4 +32,11 @@ npm run dev
 # running the testing framework 
 cd 7-11/TestAutomation
 ./scripts/runAllTests.sh
+```
+
+## Running the project after the initial install
+```
+cd wheelmap-frontend
+cp .env.example .env
+npm run dev
 ```
